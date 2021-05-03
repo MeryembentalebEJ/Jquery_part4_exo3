@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap'); /*font-family for my h1*/
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap'); /*font-family for my paragraphs*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 10px 10px 0px 10px;
+  padding-top: 10px;
+  background-image: linear-gradient(120deg, #c78e13, #f1d596 );
+  height: 100vh;
+  font-family: "Architects Daughter", cursive;
+  color: white;
+}
+
+.navbar-brand{
+  font-family: 'Rancho', cursive;
+  font-size: 40px;
+}
+.navbar-brand span{
+  font-family: 'Rancho', cursive;
+  font-size: 40px;
+  color: #1b6a7f;
+}
+p{
+  font-family: 'Ranchers', cursive;
+  letter-spacing: 3px;
+  font-size: 25px;
+}
+
+#number {
+  font-size: 40px;
+}
+hr {
+  border: 0;
+  height: 0; /* Firefox... */
+  box-shadow: 0 0 20px 6px #1b6a7f;
+}
+#win{
+  font-family: 'Rancho', cursive;
+  font-size: 40px;
+}
+
+.btn{
+  font-size: 20px;
+}
